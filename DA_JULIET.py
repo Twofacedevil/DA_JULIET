@@ -35,12 +35,12 @@ class NewSpider(scrapy.Spider):
             yield scrapy.Request(
                 response.urljoin(next_page),callback=self.parse)
 
-#import unittest
-#import os
-#class TestMyProgram(unittest.TestCase):
-    #def test(self):
-        #os.system("C:\\Users\\Lim kai jun\\Documents\\DA_JULIET\\PY_Project\\scrapy.py")
-        #os.system("C:\\Users\\Lim kai jun\\Documents\\DA_JULIET\\PY_Project\\requests.py")
+import unittest
+import os
+class TestMyProgram(unittest.TestCase):
+    def test(self):
+        os.system("C:\\Users\\Lim kai jun\\Documents\\DA_JULIET\\PY_Project\\scrapy.py")
+        os.system("C:\\Users\\Lim kai jun\\Documents\\DA_JULIET\\PY_Project\\requests.py")
 
-    #if __name__ == "_main_":
-        #unittest.main()
+    if __name__ == "_main_":
+        unittest.main()
